@@ -50,10 +50,11 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     }
 </script>
-
-<header>
-    <span class="side-button" style="font-size:20px;cursor:pointer;z-index: 1;" onclick="openNav()">&#9776; open
+<div class="side-button">
+    <span style="font-size:20px;cursor:pointer;z-index: 1;" onclick="openNav()">&#9776; open
     </span>
+</div>
+<header>
     <h1>Temperature vs. Latitude</h1>
     <p>For this exercise, we are analyzing the relationship of various weather phenomenon and whether or not those phenomena are dependent on latitude. We are calling the Open Weather api for our weather data: 
         <a href= "https://openweathermap.org/api">https://openweathermap.org/api. </a>
