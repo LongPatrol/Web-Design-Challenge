@@ -6,22 +6,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  
-  <style>
-        .navbar-custom{
-          background-color: #ff6666;
-        }
-        .navbar-custom .navbar-brand,
-        .navbar-custom a
-        { 
-
-            color:  black; 
-        }
-        body{
-            padding-top: 65px;
-            padding-left: 50px;
-        }
-  </style>
+  <link rel="stylesheet" href='style.css'>
 
 </head>
 <body>
@@ -46,7 +31,29 @@
     </div>
 </nav>
 
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+
+
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    }
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+
 <header>
+    <span class="side-button" style="font-size:20px;cursor:pointer;z-index: 1;" onclick="openNav()">&#9776; open
+    </span>
     <h1>Temperature vs. Latitude</h1>
     <p>For this exercise, we are analyzing the relationship of various weather phenomenon and whether or not those phenomena are dependent on latitude. We are calling the Open Weather api for our weather data: 
         <a href= "https://openweathermap.org/api">https://openweathermap.org/api. </a>
