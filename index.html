@@ -8,16 +8,18 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   
   <style>
-      .navbar-custom{
-          background-color: #ffe6ff;
-      }
-      .navbar-custom .navbar-brand, 
-        .navbar-custom .navbar-text,
-        a{ 
-            color:  #000066; 
+        .navbar-custom{
+          background-color: #ff6666;
+        }
+        .navbar-custom .navbar-brand,
+        .navbar-custom a
+        { 
+
+            color:  black; 
         }
         body{
             padding-top: 65px;
+            padding-left: 50px;
         }
   </style>
 
@@ -46,7 +48,10 @@
 
 <header>
     <h1>Temperature vs. Latitude</h1>
-    <p>Some words go here</p>
+    <p>For this exercise, we are analyzing the relationship of various weather phenomenon and whether or not those phenomena are dependent on latitude. We are calling the Open Weather api for our weather data: 
+        <a href= "https://openweathermap.org/api">https://openweathermap.org/api. </a>
+        We are also using the CityPy package to find the nearest city to a random assortment of latitudes and longitudes. The code here is getting the latitude and max temperature from our city dataframe. We are using a scatter plot to compare these two together. We're asking: Is temperature dependent on latitude?
+    </p>
     <img src='Resources/Visualizations/latitude_temp_all.png' alt="Temperature vs. Latitude graph">
 
 </header>
