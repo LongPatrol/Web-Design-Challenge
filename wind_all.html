@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Landing page</title>
+    <title>Wind Speed vs. Latitude</title>
   <!-- Bring in our bootstrap stylesheet -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -11,6 +11,56 @@
 </head>
 <body>
 
-    <h1>Here's the wind page</h1>
+<nav class="navbar navbar-fixed-top navbar-custom">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Wind</a>
+        </div>
+        <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="#">Comparison</a></li>
+        <li><a href="#">Data</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a target="_blank" href="temp_all.html">
+        <img src="Resources/Visualizations/latitude_temp_all.png" alt="Temperature chart by latitude" style="width:150px">
+    </a>
+    <a target="_blank" href="cloud_all.html">
+        <img src="Resources/Visualizations/latitude_cloud_all.png" alt="Cloud chart by latitude" style="width:150px">
+    </a>
+    <a target="_blank" href="humidity_all.html">
+        <img src="Resources/Visualizations/latitude_humd_all.png" alt="Humidity chart by latitude" style="width:150px">
+    </a>
+    <a target="_blank" href="wind_all.html">
+        <img src="Resources/Visualizations/latitude_wind_all.png" alt="Wind chart by latitude" style="width:150px">
+    </a>
+  </div>
+
+
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    }
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+<div class="side-button">
+    <span style="font-size:20px;cursor:pointer;z-index: 1;" onclick="openNav()">&#9776; VizLinks
+    </span>
+</div>
+<header>
+    <h1>Wind Speed vs. Latitude</h1>
+    <p>For this exercise, we are analyzing the relationship of wind speed to latitude. Our data indicates that there is no relationship between the wind speed and the latitude.</p>
+    <img src='Resources/Visualizations/latitude_wind_all.png' alt="Wind Speed vs. Latitude graph">
+
+</header>
+
 </body>
 </html>
