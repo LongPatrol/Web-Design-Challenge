@@ -1,0 +1,63 @@
+.navbar-custom{
+    background-color: #ff9999;
+  }
+.navbar-custom .navbar-brand,
+.navbar-custom a
+{ 
+
+    color:  #003366; 
+}
+.side-button{
+padding-top: 65px;
+}
+
+.table-wrap{
+    max-height: 350px;
+    overflow: auto;
+    display:inline-block;
+    width: 100%
+}
+
+header{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+  .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 50px;
+      left: 0;
+      background-color: #ff9999;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 65px;
+      }
+
+  .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #003366;
+      display: block;
+      transition: 0.3s;
+      }
+
+  .sidenav a:hover {
+  color: #f1f1f1;
+  }
+
+  .sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  }
+
+  @media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  }
