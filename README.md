@@ -12,4 +12,54 @@ The chart pages each have a the relationship being studied, and a short explanat
 
 
 # Sources:
+*Accessed: 1/29/2021:*
 
+Navbar:
+https://www.w3schools.com/bootstrap/bootstrap_navbar.asp
+
+Navbar custom color:
+https://www.geeksforgeeks.org/how-to-change-navigation-bar-color-in-bootstrap/
+
+Headers in html:
+https://www.w3schools.com/tags/tag_header.asp
+
+Moving header below navbar:
+https://stackoverflow.com/questions/10336194/top-nav-bar-blocking-top-content-of-the-page
+
+Image issue resolution:
+https://stackoverflow.com/questions/31397137/img-tag-not-working-with-relative-path-in-src
+
+*Accessed: 1/30/2021:*
+
+Padding on the left:
+https://www.w3schools.com/cssref/tryit.asp?filename=trycss_padding-left
+
+Links in html:
+https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_w3schools
+
+Sidebar:
+https://www.w3schools.com/howto/howto_js_sidenav.asp
+
+Div tag
+https://www.w3schools.com/tags/tag_div.ASP
+
+Color picker:
+https://www.w3schools.com/colors/colors_picker.asp
+
+*Accessed: 2/1/2021:*
+
+@media:
+https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
+
+Grid system:
+https://www.w3schools.com/bootstrap4/bootstrap_grid_system.asp
+
+Responsive tables:
+https://www.w3schools.com/howto/howto_css_table_responsive.asp
+https://getbootstrap.com/docs/4.3/content/tables/#responsive-tables
+
+Html from csv:
+https://www.geeksforgeeks.org/how-to-render-pandas-dataframe-as-html-table/
+
+Vertical scroll in table:
+https://stackoverflow.com/questions/40499855/bootstrap-table-vertical-scroll
