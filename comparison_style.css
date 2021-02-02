@@ -7,6 +7,12 @@
 
     color:  #003366; 
 }
+
+/*@media (max-width: 700px) {
+    body, .navbar {   
+      flex-direction: column;
+    }
+}*/
 .side-button{
 padding-top: 65px;
 }
